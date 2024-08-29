@@ -35,7 +35,7 @@ $string['mo_saml_spmetadata_download'] = 'Download SP Metadata';
 $string['mo_saml_spmetadata_download_help'] = '<a href=\'{$a}?download=1\'>Download Service Provider Metadata</a>
 <p>You can download the plugin XML metadata and upload it on your Identity Provider.</p><p>----------------------------------------------- OR -----------------------------------------------</p>';
 
-$string['mo_saml_sp_entityid'] = 'SP Entity-ID';
+$string['mo_saml_sp_entityid'] = 'SP Entity-ID'; 
 $string['mo_saml_sp_entityid_desc'] = '<p style="margin-top:-15px;margin-bottom:25px;">{$a}</p>';
 $string['mo_saml_acs_url'] = 'ACS URL';
 $string['mo_saml_acs_url_desc'] = '<p style="margin-top:-15px;margin-bottom:25px;">{$a}</p>';
@@ -72,12 +72,12 @@ $string['test_configuration'] = 'Test Configuration';
 $string['test_configuration_desc'] = '<li><a href=\'{$a}\' target="_blank"> Click here</a> to go to <b>Manage authentication</b> page.</li>
 <li>Enable the plugin by clicking on the <i class="fa fa-eye"></i> icon next to the plugins name under the Enable column.</li>
 <li> Click on the <b>Test Settings</b> option.</li>';
-$string['mo_saml_default_role_option1'] = 'Authenticated user';
-$string['mo_saml_default_role_option2'] = 'Manager';
-$string['mo_saml_default_role_option3'] = 'Course Creator';
-$string['mo_saml_default_role_option4'] = 'Teacher';
-$string['mo_saml_default_role_option5'] = 'Non-editing teacher';
-$string['mo_saml_default_role_option6'] = 'Student';
+$string['mo_saml_default_role_option1']= 'Authenticated user';
+$string['mo_saml_default_role_option2']= 'Manager';
+$string['mo_saml_default_role_option3']= 'Course Creator';
+$string['mo_saml_default_role_option4']= 'Teacher';
+$string['mo_saml_default_role_option5']= 'Non-editing teacher';
+$string['mo_saml_default_role_option6']= 'Student';
 
 $string['mo_saml_attribute_mapping'] = 'Attribute Mapping';
 $string['mo_saml_attribute_mapping_desc'] = "The Attribute Mapping feature helps you to map the user attributes sent by the IDP to the Moodle user attributes.";
@@ -114,7 +114,5 @@ $string['retriesexceeded'] = 'Maximum number of SAML connection retries exceeded
 $string['pluginauthfailed'] = 'The miniOrange SAML authentication plugin failed - user $a disallowed (no user auto-creation?) or dual login disabled.';
 $string['pluginauthfailedusername'] = 'The miniOrange SAML authentication plugin failed - user $a disallowed due to invalid username format.';
 $string['auth_mo_saml_username_email_error'] = 'The identity provider returned a set of data that does not contain the SAML username/email mapping field. Once of this field is required to login. <br />Please check your Username/Email Address Attribute Mapping configuration.';
-$string['enable_multitenant'] = 'Enable multi-tenant support';
-$string['enable_multitenant_desc'] = 'Allow users to log in from multiple Azure AD tenants';
-$string['multitenant_idps'] = 'Multi-tenant IdP configurations';
-$string['multitenant_idps_desc'] = 'JSON configuration for multiple IdPs';
+$string['pluginname'] = 'miniOrange SAML 2.0 SSO';
+
